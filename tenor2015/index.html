@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TENOR 2015</title>
+  <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+  <script src="style/jquery-2.1.3.min.js"></script>
+  <script>
+	function showhide(id) {
+//		$( "#section"+id ).toggle( "fold", 1000 );
+
+		section = document.getElementById("section"+id);
+		header = document.getElementById("header"+id);
+		if (section.style.display == 'none') {
+			section.style.display = 'inline';
+			if (id == 5) { 			// iframes with google maps
+// 				map1 = document.getElementById("map1");
+// 				map1.reload();
+// 				map2 = document.getElementById("map2");
+// 				map2.load();
+			}
+		}
+		else {
+			section.style.display = 'none';
+		}
+  	}
+  </script>
+</head>
+
+
+<body>
+
+  <div id='logo'><img src="medias/tenor-gris.png" alt="tenor-gris" width="217" height="250" align="left"><h1>TENOR 2015<br/>
+  First International Conference on Technologies for Music Notation and Representation </h1>
+  <br />
+  <h4 style="margin-left: 25px;">28-30 May 2015 - Paris - France</h4>
+  
+ <h4 style="margin-left: 25px; padding-top: 5px; color: #CC0000;"><a href=program.html>Proceedings and videos are online</a></h4>
+  </div>
+  <div id=intro>
+The first International Conference on Technologies for Music Notation and Representation is dedicated to issues in theoretical and applied research and development in Music Notation and Representation, with a strong focus on computer tools and applications, as well as a tight connection to music creation.<br />
+Until very recently, the support provided by the computer music to the field of symbolic notation remained fairly conventional. However, recent developments indicate that the field of tools for musical notation is now moving towards new forms of representation. Moreover, musical notation, transcription, sonic visualization, and musical representation are often associated in the fields of musical analysis, ethnology, and acoustics. The aim of this conference is to explore all of recent mutations of notation and representation in all domains of music.
+</div>
+  <div id="basic-accordian" >
+    
+    <!- RESUME ->
+    
+<div id="header0" class="accordion_headings"><a onclick='showhide(0)'>Program</a></div>
+<div id="section0", style='display: none;'>
+<div class="accordion_child">
+
+	<h3>Keynote speaker</h3>
+	<h1>Eleanor Selfridge-Field</h1>
+	<p>
+	<img style="float: right; margin: 5px 5px 5px 5px;" src="medias/selfridgefield_staff.jpg" alt="E. Selfridge-Field" height="90">
+	Eleanor Selfridge-Field, Consulting Professor Music, is a musicologist 
+and digital humanities scholar at Stanford University, where she heads the 
+Center for Computer Assisted Research in the Humanities, an affiliate of the 
+Packard Humanities Institute.  She is the author of 16 books in digital 
+musicology and 5 in historical musicology.  Her teaching, most of it in
+collaboration with Craig Sapp, focuses on music representation systems and 
+music-information retrieval.
+	</p>
+	<br />
+	<h4>Program overview</h4><br />
+	<img src="medias/overview.jpg" alt="Program Overview" width=750 usemap="#progmap">
+	<map name="progmap">
+	<area  alt="INScore Workshop" href="INScoreWS" shape="rect" coords="40, 267, 241, 439"  />
+	<area  alt="Score Edition - Music Transcription" href="program.html#Score Edition - Music Transcription" shape="rect" coords="290, 85, 491, 134"  />
+	<area  alt="Animated Notation - Live Notation" href="program.html#Animated Notation - Live Notation" shape="rect" coords="290, 165, 491, 213"  />
+	<area  alt="Paper+Music I" href="program.html#Paper+Music I" shape="rect" coords="290, 302, 491, 350"  />
+	<area  alt="Poster session" href="program.html#Poster session" shape="rect" coords="290, 360, 491, 407"  />
+	<area  alt="Paper+Music II" href="program.html#Paper+Music II" shape="rect" coords="290, 418, 491, 466"  />
+	<area  alt="Technology for Music Notation" href="program.html#Technology for Music Notation" shape="rect" coords="540, 68, 745, 113"  />
+	<area  alt="Electro-acoustic Music Notation" href="program.html#Electro-acoustic Music Notation" shape="rect" coords="540, 143, 745, 174"  />
+	<area  alt="Keynote" href="program.html#keynote" shape="rect"  coords="540, 183, 745, 213"  />
+	<area  alt="Cognition - Perception" href="program.html#Cognition - Perception" shape="rect" coords="540, 303, 745, 348"  />
+	<area  alt="Specific Notations" href="program.html#Specific Notations" shape="rect" coords="540, 381, 745, 426"  />
+	</map>
+
+	<br />
+	<br />
+	
+	<h4><a href="program.html">Detailled program is available here</a></h4>
+	
+</div>
+</div>
+    
+<div id="header1" class="accordion_headings"><a onclick='showhide(1)'>Call for papers</a></div>
+<div id="section1", style='display: none;'>
+<div class="accordion_child">
+
+<!--
+		<p><strong>Paris, France, 29-30 May 2015<br />
+		University of Paris-Sorbonne / Ircam</strong><br />
+
+<p>The first International Conference on Technologies for Music Notation and Representation is dedicated to issues in theoretical and applied research and development in Music Notation and Representation, with a strong focus on computer tools and applications, as well as a tight connection to music creation.</p>
+
+<p>Until very recently, the support provided by the computer music to the field of symbolic notation remained fairly conventional. However, recent developments indicate that the field of tools for musical notation is now moving towards new forms of representation. Moreover, musical notation, transcription, sonic visualization, and musical representation are often associated in the fields of musical analysis, ethnology, and acoustics. The aim of this conference is to explore all of recent mutations of notation and representation in all domains of music.</p>
+--!>
+
+<h3>Topics of interest</h3>
+
+<strong>Musical creation</strong>
+<ul>
+	<li>Notation in electronic and electroacoustic music</li>
+<li>Notations for interactive music</li>
+<li>Notation for sound installations</li>
+<li>Notation for the multimedia and mixed arts</li>
+<li>Live coding</li>
+</ul>
+
+<strong>Musical notation</strong>
+<ul>
+	<li>Innovative computer applications for music notation</li>
+<li>Languages for music notation</li>
+<li>Gesture notation</li>
+<li>Notation and mobile devices</li>
+<li>Exchange formats for music notation</li>
+<li>Online tools and languages for music notation and representation</li>
+</ul>
+
+<strong>Analysis, notation & pieces studies</strong>
+<ul>
+	<li>Analysis of contemporary notations</li>
+<li>Semiotic of new notation forms</li>
+<li>Ontology of the notation of interactive music</li>
+<li>Data mining, music notation corpus, databases</li>
+</ul>
+
+<strong>Representation, transcription</strong>
+<ul>
+	<li>Sound visualization</li>
+<li>Interactive representation</li>
+<li>Transcription in ethnomusicology and representation of non-written musics</li>
+<li>Non-western or ancient music trans-notation</li>
+<li>Representation and transcription in acoustic ecology and sound landscape</li>
+<li>Optical music recognition</li>
+</ul>
+
+<strong>Listening, teaching</strong>
+<ul>
+	<li>Listening guides</li>
+<li>Live and offline annotation</li>
+<li>Notations for music pedagogy</li>
+</ul>
+
+<!--
+<p><center>
+<img src="medias/iremus-logo-noir-et-couleur.jpg" alt="Iremus" height="70">
+&ensp;&ensp;<img src="medias/Logo-Paris-Sorbonne-RVB.jpg" alt="Paris-Sorbonne" height="70">
+&ensp;&ensp;<img src="medias/logoircamTrans.png" alt="IRCAM" height="65">
+&ensp;&ensp;<img src="medias/LogoLAM.gif" alt="LAM" height="65">
+&ensp;&ensp;<img src="medias/bandeau-grame.jpg" alt="Grame" height="65">
+&ensp;&ensp;<img src="medias/INA_GRM.png" alt="INA-GRM" height="65">
+&ensp;&ensp;<img src="medias/CNRSfr-grand.jpg" alt="CNRS" height="65">
+<br />
+<br />
+&ensp;&ensp;<img src="medias/sorbonneUniv.png" alt="Sorbonne-Univ" height="40">
+&ensp;&ensp;<img src="medias/logo-afim.png" alt="AFIM" height="40">
+</center></p>
+--!>
+        
+</div>
+</div>
+ 
+ 
+<div id="header2" class="accordion_headings"><a onclick='showhide(2)'>Important dates</a></div>
+<div id="section2", style='display: none;'>
+<div class="accordion_child">
+	<ul>
+		<li style="text-decoration: line-through;">January 15 2015 : deadline for papers submission</li>
+		<li>January 31 2015 : extended deadline for papers submission</li>
+		<li style="text-decoration: line-through;">February 28 2015 : notification of acceptance</li>
+		<li>March 12 2015 : notification of acceptance</li>
+		<li>April 1st 2015 : camera ready papers</li>
+		<li>April 20 2015 : early registration end</li>
+		<li>May 28 2015 : INScore Workshop</li></li>
+		<li>May 29-30 2015 : conférence</li></li>
+	</ul>
+</div>
+</div>
+   
+<div id="header3" class="accordion_headings"><a onclick='showhide(3)'>Submission procedure</a></div>
+<div id="section3", style='display: none;'>
+<div class="accordion_child">
+      
+       <p>The deadline for receipt of papers is Saturday, 31 January 2015 midnight EST. Notification of acceptance will be emailed to applicants in the end of February 2015. Presenters whose papers are chosen will be invited to revise their article and submit a final version for the 1st April 2015.</p>
+<p>Papers must be written in english and must comply with the <a href="templates/TENOR2015-template_latex.zip" title="Latex template">latex</a> template or <a href="templates/TENOR2015-template_word.zip" title="Word template">word</a> templates.<br />
+Full papers must be submitted (not abstracts). Papers length should be between 4 and 12 pages.<br /> Submissions should be made via the <a href="https://easychair.org/conferences/?conf=tenor2015" title="Submission platform">EasyChair</a> plateform. </p>
+<p>Proposals may be accepted as oral presentation or as poster.
+The duration of an oral presentation will be 15 minutes followed by a question period of 5 minutes. Standard presentation equipment will be provided including a video projector, CD player, and stereo sound system.</p>
+
+<p>Conference language is English.</p>
+
+<p>For any question, please contact : tenor2015[at]tenor-conference.org</p>
+</div>
+</div>
+
+
+<div id="header4" class="accordion_headings"><a onclick='showhide(4)'>Registration</a></div>
+<div id="section4", style='display: none;'>
+<div class="accordion_child">
+        <h3>Registration is <a href="https://www.azur-colloque.fr/DR01/AzurInscription/?&iColId=20&NaiveForm_id=AzChoixColloque&btnAzurI=Inscription&lang=en">open</a>.</h3>
+
+        <table class="registration">
+        	<tr>
+        	<td> </td><td>Early<br />(before April 20th)</td><td>Late</td>
+        	</tr>
+        	<tr>
+         	<td>Regular Fee</td><td>100 €</td><td>150 €</td>
+	       	</tr>
+        	<tr>
+        	<td>Student Fee</td><td>50 €</td><td>100 €</td>
+        	</tr>        	
+        	<tr>
+        	<td>INScore Workshop</td><td colspan=2>free</td>
+        	</tr>        	
+        </table>
+        
+        <h4>Registration fees include:</h4>
+        <ul>
+        	<li>Attendance to all paper sessions, poster sessions, keynote</li>
+        	<li>Conference guide and electronic proceedings</li>
+        	<li>Coffee breaks and lunches</li>
+        </ul>
+        Accomodation is not included in conference fees. 
+        <br /> 
+        Attendance to the <a href="INScoreWS">INScore Workshop</a> is free but you must register due to the limited number of places. <br />
+        <span style="font-size: 110%; color: #a00">The workshop is full. You can still register but you will be on the waiting list.</span></br>
+
+        Early registration ends on April 20th <br />        
+
+</div>
+</div>
+    
+    
+   
+<div id="header5" class="accordion_headings"><a href="practical.html">
+Practical information</a></div>
+
+
+    
+<div id="header6" class="accordion_headings"><a onclick='showhide(6)'>Organizing committee</a></div>
+<div id="section6", style='display: none;'>
+<div class="accordion_child">
+        
+<li>Marc Battier, IReMus Université Paris-Sorbonne</li>
+<li>Jean Bresson, Ircam-CNRS UMR STMS </li>
+<li>Jérémie Garcia, Ircam </li>
+<li>Pierre Couprie, IReMus Université Paris-Sorbonne</li>
+<li>Cécile Davy-Rigaux, IReMus, CNRS</li>
+<li>Dominique Fober, GRAME</li>
+<li>Yann Geslin, INA-GRM</li>
+<li>Hugues Genevois, LAM UPMC</li>
+<li>François Picard, IReMus Université Paris-Sorbonne</li>
+<li>Alice Tacaille, IReMus Université Paris-Sorbonne </li>
+
+<span class="right1">
+<h5>Student volunteers </h5>
+<li>Fabiano Araujo </li>
+<li>Elsa Filipe </li> 
+<li>Martin Guerpin </li>
+<li>Marina Maluli </li>
+<li>Daniel Rezende </li>
+<li>Thomas Saboga </li> 
+
+<h5>Administration</h5>
+<li>Habiba Berkoun (IReMus)  </li>
+<li>Sylvie Benoit (Ircam)  </li> 
+</span>
+
+<h5>TENOR Steering committee</h5>
+
+The Steering Committee is responsible for guiding future directions with regards to the TENOR conference. <br />
+Its members currently include: <br />
+<li>Jean Bresson, Ircam-CNRS UMR STMS  </li>
+<li>Pierre Couprie, IReMus Université Paris-Sorbonne  </li>
+<li>Dominique Fober, GRAME  </li>
+<li>Yann Geslin, INA-GRM  </li>
+<li>Richard Hoadley, Anglia Ruskin University  </li>
+<li>Mike Solomon  </li>
+<br />
+<br />
+        
+    </div>
+    </div>
+    
+    <div id="header7" class="accordion_headings"><a onclick='showhide(7)'>Scientific committee</a></div>
+    <div id="section7", style='display: none;'>
+      <div id="committe" class="accordion_child">
+        
+		Carlos	Agon	  <br />
+		Andrea	Agostini	  <br />
+		Gerard	Assayag		<br />
+		Karim	Barkati		  <br />
+		Marc	Battier		  <br />
+		Sandeep	Bhagwati	  <br />
+		Andrew	Blackburn	  <br />
+		Alan	Blackwell		  <br />
+		Alain	Bonardi		<br />
+		Bruno	Bossis		  <br />
+		Jean	Bresson		  <br />
+		Elaine	Chew		  <br />
+		Michael	Clarke		  <br />
+		Pierre	Couprie		  <br />
+		Cécile	Davy-Rigaux	  <br />
+		Frédéric	Dufeu		  <br />
+		Simon	Emmerson	  <br />
+		Dominique	Fober	  <br />
+		Ichiro	Fujinaga	  <br />
+		Susanne	Fürniss	  <br />
+		Jérémie	Garcia		  <br />
+		Hugues	Genevois	  <br />
+		Yann	Geslin		 <br />
+		Daniele	Ghisi		  <br />
+		Jean-Louis	Giavitto  <br />
+		Gérald	Guillot	  <br />
+		Georg	Hajdu	  <br />
+		Keith	Hamel	  <br />
+		Richard	Hoadley		  <br />
+		Florent	Jacquemard	  <br />
+		Guillaume	Jacquemin	  <br />
+		Mika	Kuuskankare	  <br />
+		Leigh	Landy		  <br />
+		Thor	Magnusson	  <br />
+		Mikhail	Malt		  <br />
+		Peter	Manning	  <br />
+		Tom	Mays	  <br />
+		Alex	Mclean		  <br />
+		Yann	Orlarey		  <br />
+		Francois	Pachet	  <br />
+		François	Picard	  <br />
+		Philippe	Rigaux	  <br />
+		Eleanor	Selfridge-Field	  <br />
+		Mike	Solomon	  <br />
+		Marco	Stroppa		  <br />
+		Alice	Tacaille	  <br />
+		Matthew	Thibeault	  <br />
+		Anders	Vinjar	  <br />
+    </div>
+</div>
+
+    
+    <div id="header8" class="accordion_headings"><a onclick='showhide(8)'>With the collaboration of</a></div>
+    <div id="section8", style='display: none;'>
+      <div class="accordion_child">
+      
+Institut de Recherche en Musicologie, CNRS UMR 8223<br />
+Université Paris-Sorbonne<br />
+IRCAM - UMR STMS<br />
+LAM, Lutheries - Acoustique - Musique, UPMC<br />
+GRAME, Centre national de création musicale, Lyon<br />
+Ina GRM, Groupe de Recherches Musicales<br />
+CNRS<br />
+AFIM, Association Française d'Informatique Musicale<br />
+
+<p>&ensp;</p>
+
+<p><center>
+<img src="medias/iremus-logo-noir-et-couleur.jpg" alt="Iremus" height="70">
+&ensp;&ensp;<img src="medias/Logo-Paris-Sorbonne-RVB.jpg" alt="Paris-Sorbonne" height="70">
+&ensp;&ensp;<img src="medias/logoircamTrans.png" alt="IRCAM" height="65">
+&ensp;&ensp;<img src="medias/LogoLAM.gif" alt="LAM" height="65">
+&ensp;&ensp;<img src="medias/bandeau-grame.jpg" alt="Grame" height="65">
+&ensp;&ensp;<img src="medias/INA_GRM.png" alt="INA-GRM" height="65">
+&ensp;&ensp;<img src="medias/CNRSfr-grand.png" alt="CNRS" height="65">
+<br />
+<br />
+&ensp;&ensp;<img src="medias/sorbonneUniv.png" alt="Sorbonne-Univ" height="40">
+&ensp;&ensp;<img src="medias/logo-afim.png" alt="AFIM" height="40">
+</center></p>
+        
+      </div>
+    </div>
+    
+  </div>
+  <div id="footer">
+    <p><a href='http://tenor2015.tenor-conference.org/'>TENOR 2015</a></p>
+  </div>
+</body>
+</html>

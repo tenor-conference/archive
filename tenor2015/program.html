@@ -1,0 +1,1059 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TENOR 2015 - Program</title>
+  <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+  <script>
+	function showhide(elt) {
+		if (!elt) return;
+		if (elt.style.display == 'none')
+			elt.style.display = 'inline';
+		else
+			elt.style.display = 'none';
+	}
+	function hide(elt) {
+		if (elt && elt.style.display == 'inline')
+			elt.style.display = 'none';
+	}
+	function showhideabstract(id) {
+		a = document.getElementById('A'+id);
+		b = document.getElementById('B'+id);
+		hide (b);
+		showhide(a);
+  	}
+	function showhidebibtex(id) {
+		a = document.getElementById('A'+id);
+		b = document.getElementById('B'+id);
+		hide (a);
+		showhide(b);
+  	}
+  </script>
+</head>
+
+
+<body>
+<div id='logo'><h1>TENOR 2015<br/>
+  First International Conference on Technologies for Music Notation and Representation </h1>
+<div id='header'>
+  <h4>28-30 May 2015 - Paris - France</h4> <br /> <br />
+ <h4 style="color: #CC0000; font-size: 130%;">Program</h4> <br />
+  <span style="font-size: 120%">The music sessions videos are available from the <a href="http://medias.ircam.fr/x666f9e">IRCAM video server</a>.  </span><br />
+
+  <p style="font-size: 120%; padding-bottom: 5px">Download all the <a href="https://www.tenor-conference.org/proceedings/TENOR2015-Proceedings.pdf">proceedings</a> and all the <a href="https://www.tenor-conference.org/proceedings/bibtex2015.bib">bibtex</a> refs.  </p>
+  </div>
+  </div>
+<br />
+<br />
+
+
+<div id='date'>Thursday 28th May</div>
+
+<div id='location'>Location: Centre Clignancourt</div>
+<div id='session'>
+  <div id='sessionTitle'><a href=INScoreWS>INScore Workshop</a></div>
+    <span class='time'>From 13:30 to 17:30</span> &nbsp;&nbsp;
+</div>
+
+<div id='program'>
+
+<br />
+<div id='date'>Friday 29th May</div>
+
+<div id='location'>Location: <a href='practical.html#Maison de la Recherche'>Maison de la Recherche</a></div>
+<div id='progintro'>
+    <p>
+    <span class='time'>09:00</span> &nbsp;&nbsp;
+    <span class='registration'> Registration</span>
+    </p>
+    <p>
+    <span class='time'>09:30</span> &nbsp;&nbsp;
+    <span class='registration'> Introduction</span>
+    </p>
+</div>
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Score Edition - Music Transcription'>Score Edition - Music Transcription</a><span class='right chair'>Chair: Mike Solomon</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>09:40</span> &nbsp;&nbsp;
+    <span class='paper'>LEADSHEETJS: A Javascript Library for Online Lead Sheet Edition</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("45")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("45")'> Abstract</a> </span> <br />
+    <span class='authors'>Daniel Martín, Timotée Neullas and François Pachet</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/01-Martin-LeadsheetJS.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A45', style='display: none;'><p class='abstract'>
+Lead sheets are routinely used in many genres of popular music. Lead sheets are music scores consisting of a melody and a chord grid. With the increase of online and portable music applications, the need for easily embeddable, adaptable and extensible lead sheet editing tools is pressing. We introduce LeadsheetJS, a javascript library for visualizing, editing and rendering lead sheets on multiple devices. LeadsheetJS provides lead sheet edition as well as support for extensions such as score augmentation and peer feedback. LeadsheetJS is a client-based component that can be embedded from arbitrary third-party websites. We describe the main design aspects of LeadsheetJS and some applications in online computer-aided composition tools.</p>
+</div>
+<div id='B45', style='display: none;'><p class='bibtex'>
+@inproceedings{Martin_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Daniel Martín and Timotée Neullas and François Pachet }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {LEADSHEETJS: A Javascript Library for Online Lead Sheet Edition}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {1--10}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>10:00</span> &nbsp;&nbsp;
+    <span class='paper'>Bigram Editor: a score editor for the Bigram Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("11")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("11")'> Abstract</a> </span> <br />
+    <span class='authors'>Andres Perez-Lopez, Pep Alcantara-Noalles and Bertrand Kientz</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/02-PerezLopez-Bigram.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A11', style='display: none;'><p class='abstract'>
+The Bigram Notation is an alternative approach to musical notation, based on the chromatic nature of Western music. As observed historically with alternative notation systems, their spread and consolidation is based on the existence of complementary and supportive tools, as ideosyncratic instruments and specific written material. Accordingly, we present the binary keyboards and the Bigram Editor, a graphical bigram score editor with automatic transcription and reproduction capabilities.</p>
+</div>
+<div id='B11', style='display: none;'><p class='bibtex'>
+@inproceedings{Perez-Lopez_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Andres Perez-Lopez and Pep Alcantara-Noalles and Bertrand Kientz }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Bigram Editor: a score editor for the Bigram Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {11--17}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>10:20</span> &nbsp;&nbsp;
+    <span class='paper'>Expressive Quantization of Complex Rhythmic Structures for Automatic Music Transcription</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("5")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("5")'> Abstract</a> </span> <br />
+    <span class='authors'>Mauricio Rodriguez</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/03-Rodriguez-ExpressiveQuantization.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A5', style='display: none;'><p class='abstract'>
+Two quantization models for ‘expressive’ rendering of complex rhythmic patterns are discussed. A multi-nesting quantizer captures expressivity by allowing fine-grained/high-quality resolution, thus covering the automatic transcription of a wide range of rhythmic configurations, yielding from simple to rather complex music notations. A look-up table quantizer is discussed as another model to attain expressivity and musical consistency; input is quantized by comparison of 'rhythmic similarity' from a user-defined data-set or look-up 'dictionary'.
+Both quantizers are presented as computing assisting tools to facilitate the transcription of rhythmic structures into the symbolic domain (i.e. music notation).</p>
+</div>
+<div id='B5', style='display: none;'><p class='bibtex'>
+@inproceedings{Rodriguez_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Mauricio Rodriguez }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Expressive Quantization of Complex Rhythmic Structures for Automatic Music Transcription}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {18--22}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>10:40</span> &nbsp;&nbsp;
+    <span class='paper'>Computer-aided Melody Note Transcription Using the Tony Software: Accuracy and Efficiency</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("28")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("28")'> Abstract</a> </span> <br />
+    <span class='authors'>Matthias Mauch, Chris Cannam, Rachel Bittner, George Fazekas, Justin Salamon, Jiajie Dai, Juan Bello and Simon Dixon</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/04-Mauch-Tony.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A28', style='display: none;'><p class='abstract'>
+We present Tony, a software tool for the interactive evaluation of melodies from monophonic audio recordings, and evaluate its usability and the accuracy of its note extraction method.
+The scientific study of acoustic performances of melodies, whether sung or played, requires the accurate transcription of notes and pitches. To achieve the desired transcription accuracy for a particular application, researchers manually correct results obtained by automatic methods.
+Tony is an interactive tool directly aimed at making this correction task efficient. It provides (a) state-of-the art algorithms for pitch and note estimation, (b) visual and auditory feedback for easy error-spotting, (c) an intelligent graphical user interface through which the user can rapidly correct estimation errors, d) extensive export functions enabling further processing in other applications.
+We show that Tony's built in automatic note transcription method compares favourably against existing tools.
+We report how long it takes to annotate recordings on a set of 96 recordings and study the effect of piece, the number of edits made and the annotator's increasing mastery of the software.
+Tony is Open Source software, with source code and compiled binaries for Windows and Mac OS X available from https://code.soundsoftware.ac.uk/projects/tony/.</p>
+</div>
+<div id='B28', style='display: none;'><p class='bibtex'>
+@inproceedings{Mauch_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Matthias Mauch and Chris Cannam and Rachel Bittner and George Fazekas and Justin Salamon and Jiajie Dai and Juan Bello and Simon Dixon }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Computer-aided Melody Note Transcription Using the Tony Software: Accuracy and Efficiency}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {23--30}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+<br />
+<div id='break'>Break</div>
+
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Animated Notation - Live Notation'>Animated Notation - Live Notation</a><span class='right chair'>Chair: Dominique Fober</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>11:30</span> &nbsp;&nbsp;
+    <span class='paper'>Understanding Animated Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("21")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("21")'> Abstract</a> </span> <br />
+    <span class='authors'>Christian Fischer</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/05-Fischer-AnimatedNotation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A21', style='display: none;'><p class='abstract'>
+Alternative notation approaches become more and more popular. Animated notation is one of them. Mainly be-cause it seems easy to apply. On the other hand, practice shows that classically trained musicians, composers and musicologists tend to reject this kind of notation. Furthermore some musical performances based on animated notation should face the question whether a regular notation would not have been more efficient. Overall there is still a lack of knowledge and some misconceptions when it comes to animated notation and its practical application. A brief look into the development of animated notation, examples of actual fields of application and especially an examination of the visual communication process and the design of animated scores will shed a little light into the darkness.</p>
+</div>
+<div id='B21', style='display: none;'><p class='bibtex'>
+@inproceedings{Fischer_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Christian Fischer }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Understanding Animated Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {31--38}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>11:50</span> &nbsp;&nbsp;
+    <span class='paper'>An Atomic Approach to Animated Music Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("42")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("42")'> Abstract</a> </span> <br />
+    <span class='authors'>Ryan Ross Smith</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/06-RossSmith-AtomicAMN.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A42', style='display: none;'><p class='abstract'>
+Since the turn of the century, and in particular the last 5 years, the discourse surrounding dynamic scoring techniques and practices has increased dramatically, while leading to an increasingly disparate terminological melee. With an awareness of what implications exist in the premature analysis and theorization of an emerging field of practice, the author argues that in order to further develop a taxonomy of dynamic scoring techniques and practices, it may be useful to take a reductionist approach toward defining the various low-level elements of dynamic scoring, in the case of this paper those elements that features prominently in Animated Music Notation [AMN]. By suggesting a set of low-level elements, and isolating the actualized indicators of contact and intersection as the primary functional components of AMN, the author will propose a working definition of AMN supported by examples drawn from the author’s work and others. This definition is not intended to satisfy the broad range of dynamic scoring techniques that implement AMN, but to highlight prevalent methodologies, and to point toward the extension of existing taxonomies, specifically regard-ing their respective global functionalities.</p>
+</div>
+<div id='B42', style='display: none;'><p class='bibtex'>
+@inproceedings{RSmith_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Ryan Ross Smith }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {An Atomic Approach to Animated Music Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {39--47}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>12:10</span> &nbsp;&nbsp;
+    <span class='paper'>SEMAPHORE: Cross-Domain Expressive Mapping with Live Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("23")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("23")'> Abstract</a> </span> <br />
+    <span class='authors'>Richard Hoadley</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/07-Hoadley-Semaphore.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A23', style='display: none;'><p class='abstract'>
+This paper describes research, investigations, creative ex- periments and performances undertaken by the author in collaboration with practitioners in different creative and performance domains. The research focuses on the trans- lation of expression between these domains and its imple- mentation using technology. This paper focuses primar- ily on the role of notation in this process. The domains involved include music (audio and notation), movement (dance) and text (poetry). The data arising from perform- ers’ movements are collected and investigated; consider- ation is given to the use of image and graphics enabling elementary algorithmically generated dance notation. <br />
+These implementations are taken to be a part of the cre- ative process. This research is about creating and investi- gating stimulating experiences where connections between one domain and the other are perceivable and where this connection itself provides an aesthetic experience. They are not intended to be fixed and permanent (although may remain so for the duration of a composition). The research is about creating dynamic environments, not musical in- struments or general purpose tools.</p>
+</div>
+<div id='B23', style='display: none;'><p class='bibtex'>
+@inproceedings{Hoadley_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Richard Hoadley }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {SEMAPHORE: Cross-Domain Expressive Mapping with Live Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {48--57}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>12:30</span> &nbsp;&nbsp;
+    <span class='paper'>The DECIBEL Scoreplayer - A Digital Tool for Reading Graphic Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("20")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("20")'> Abstract</a> </span> <br />
+    <span class='authors'>Cat Hope, Lindsay Vickery, Aaron Wyatt and Stuart James</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/08-Hope-Decibel.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A20', style='display: none;'><p class='abstract'>
+In 2009, the Decibel new music ensemble based in Perth, Western Australia was formed with an associated mani-festo that stated “Decibel seek to dissolve any division between sound art, installation and music by focusing on the combination of acoustic and electronic instruments’]. The journey provided by this focus led to a range of investigations into different score types, resulting in a re-writing of the groups statement to 'pioneering electronic score formats, incorporating mobile score formats and networked coordination performance environments'. This paper outlines the development of Decibel’s focus on the ‘screen score’, including the different stages of the ‘Decibel ScorePlayer’, an application (App) for reading graphic notation on the iPad. The paper argues that the Decibel ScorePlayer App provides a new, more accurate and reliable way to coordinate performances of music where harmony and pulse are not the primary elements described by notation. It features a discussion of selected compositions facilitated by the application, with a focus on the significance of the application to the authors own compositional practice. The different stages in the development from a prototype score player leading to the establishment of the commercialised Decibel ScorePlayer are outlined.</p>
+</div>
+<div id='B20', style='display: none;'><p class='bibtex'>
+@inproceedings{Hope_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Cat Hope and Lindsay Vickery and Aaron Wyatt and Stuart James }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {The DECIBEL Scoreplayer - A Digital Tool for Reading Graphic Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {58--69}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+<div id='progintro'>
+    <span class='time'>12:50</span> &nbsp;&nbsp;
+    <span class='registration'>Transfer to IRCAM</span>
+</div>
+
+<div id='location'>Location: <a href='practical.html#IRCAM'>IRCAM</a></div>
+<br />
+<div id='break'>Lunch</div>
+
+<div id='progintro'>
+    <span class='time'>14:20</span> &nbsp;&nbsp;
+    <span class='registration'>Poster craze</span>
+</div>
+
+<div id='music'>
+  <div id='sessionTitle'><a name='Music I'>Music I</a><span class='right chair'>Chair: Yann Geslin</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>14:40</span> &nbsp;&nbsp;
+    <span class='paper'>Automatized transcription and melodic analysis to study the Dunhuang pipa scores.</span>
+    <span class='right abstract'>
+    <a title='Show abstract' onclick='showhideabstract("100")'> Abstract</a> </span> <br />
+    <span class='authors'>Weiping Wang, Vincent Boucheau</span>
+    <span class='right pdf'><a href=http://medias.ircam.fr/x666f9e><img src='medias/video.jpg' width=20></a></span><br />
+    </p>
+<div id='A100', style='display: none;'><p class='abstract'>
+The study of the Dunhuang pipa scores, a set of manuscripts from Xth century, written with a system of tablature for the pipa lute, has been facilitated by the development of a dedicated software program. It performs their trans-notation on five lines scores, allowing to obtain different results, depending on the selected input configuration parameters, like tuning and rhythms. This program also produces schemas and diagram for melodic analysis purpose. This has proven useful to evaluate and validate various hypothesis concerning the original scores, and to identify their mode. Finally, the obtained results can be validated by their interpretation on a real instrument. </p>
+</div>
+    <p>
+    <span class='time'>15:20</span> &nbsp;&nbsp;
+    <span class='paper'>Extended shapes on the Tonnetz for (instantaneous) composition and modal analysis in modern music.</span>
+    <span class='right abstract'>
+    <a title='Show abstract' onclick='showhideabstract("101")'> Abstract</a> </span> <br />
+    <span class='authors'>Mattia Bergomi</span>
+    <span class='right pdf'><a href=http://medias.ircam.fr/xa70d77><img src='medias/video.jpg' width=20></a></span><br />
+    </p>
+<div id='A101', style='display: none;'><p class='abstract'>
+Visualization of musical structures is a powerful tool to assist composers and improvisers in their creative processes. Interpreting the Tonnetz as a simplicial complex it is possible to visualize notes and chords as subcomplexes endowed with particular topological and geometric properties. The software HexaChord developed at the IRCAM by Louis Bigo will be used to show how the topological information provided by the real time interaction among the composer and the "simplicial Tonnetz" can be used either as a didactical instrument and a facilitator.<br />
+In addition to the planar representation of the Tonnetz, a 3-dimensional version obtained considering the consonance relationship among the theme and the harmony will be described. The anisotropic and dynamical nature of this model allow to identify sonorities as Tonnetz's extended shapes, characterized by their extrinsic and intrinsic geometrical features.</p>
+</div>
+  </div>
+</div>
+
+<div id='poster'>
+  <div id='sessionTitle'><a name='Poster session'>Poster session</a><span class='right chair'>Chair: Jérémie Garcia</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Spectromorphological Notation: Exploring the Uses of Timbral Visualisations in Ethnomusicological Works</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("17")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("17")'> Abstract</a> </span> <br />
+    <span class='authors'>Hassan Abdullah Mohd and Andrew Blackburn</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/11-Abdullah-SpectromorphologicalNotation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A17', style='display: none;'><p class='abstract'>
+Ethnomusicologists often face problem in precisely de-scribing characteristic of a sound recorded in the field-work. Written explanation normally will use the meta-phoric words to represent the timbral characteristic of a sound produced by ethnic musical instruments. But to what extend the reader will understand and perceive the sound based on the writer explanation? This study will explore all the possibilities of using timbral visualization in recognizing the Malaysian traditional musical instru-ments. We introduce an instrument recognition process in solo recordings of a set of Malay traditional instruments (gedombak), which yields a high recognition rate. A large sound profile is used in order to encompass the different sound characteristic of each instrument and evaluate the generalization abilities of the recognition process.</p>
+</div>
+<div id='B17', style='display: none;'><p class='bibtex'>
+@inproceedings{Mohd_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Hassan Abdullah Mohd and Andrew Blackburn }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Spectromorphological Notation: Exploring the Uses of Timbral Visualisations in Ethnomusicological Works}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {70--73}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>denm (dynamic environmental notation for music): Introducing a Performance-Centric Musical Interface</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("52")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("52")'> Abstract</a> </span> <br />
+    <span class='authors'>James Bean</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/12-Bean-DENM.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A52', style='display: none;'><p class='abstract'>
+denm (dynamic environmental notation for music) is an automatic notation renderer written for tablet computers in the Swift language and the Cocoa Touch Frameworks. denm is a performance-centric notation environment with many tools built into an interactive graphical representation of music. These tools, for both individual- and group-rehearsal contexts, invite multi-dimensional learning strategies to performing the complex musics written today. There are many excellent tools currently available that automatically generate musical scores, but the focus of these tools is often towards the compositional and/or theoretical end of the musical process. denm focuses its efforts on the performance end of the process, allowing performers to interact directly with the musical notation. This paper describes the impetus for the denm project, the current state of its development, and areas of continued implementation and exploration.</p>
+</div>
+<div id='B52', style='display: none;'><p class='bibtex'>
+@inproceedings{Bean_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { James Bean }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {denm (dynamic environmental notation for music): Introducing a Performance-Centric Musical Interface}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {74--80}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>OSSIA: towards a unified interface for scoring time and interaction</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("44")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("44")'> Abstract</a> </span> <br />
+    <span class='authors'>Jean-Michaël Celerier, Pascal Baltazar, Clément Bossut, Nicolas Vuaille, Jean-Michel Couturier and Myriam Desainte-Catherine</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/13-Celerier-OSSIA.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A44', style='display: none;'><p class='abstract'>
+The theory of interactive scores addresses the writing and execution of temporal constraints between musical objects, with the ability to describe the use of interactivity in the scores.
+In this paper, a notation for the use of conditional branching in interactive scores will be introduced. It is based on a high level formalism for the authoring of interactive scores developed during the course of the OSSIA research project. This formalism is meant to be at the same time easily manipulated by composers, and translatable to multiple formal methods used in interactive scores like Petri nets and timed automaton. An application programming interface that allows the interactive scores to be embedded in other software and the authoring software, \textsc{i-score}, will be presented.</p>
+</div>
+<div id='B44', style='display: none;'><p class='bibtex'>
+@inproceedings{Celerier_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Jean-Michaël Celerier and Pascal Baltazar and Clément Bossut and Nicolas Vuaille and Jean-Michel Couturier and Myriam Desainte-Catherine }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {OSSIA: towards a unified interface for scoring time and interaction}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {81--90}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>A Sign to write Acousmatic Scores</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("14")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("14")'> Abstract</a> </span> <br />
+    <span class='authors'>Jean-Louis Di Santo</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/14-DiSanto-AcousmaticScores.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A14', style='display: none;'><p class='abstract'>
+This paper aims at describing an approach meant to build a sign adapted to acousmatic music and based on reduced listening. The sign, to be efficient, must obey to a certain number of requisits: precision, ergonomy, relevance... It must be both easy to use and able to create relations between sounds. A simple description of their qualities is not enough: it must be able to create or analyse sound compositions and structures, such as instrumental scores. To fulfill this purpose, it must be able to give each sound a value, in a saussurian meaning of the word. I will try to show the genealogy of my sign, how I took elements of reflexion from musical knowledge, linguistics, semiotics and aesthetics. From there I deduced the concept of minimal unit of sound applied to electroacoustic music and I created a sign combining symbols to decribe its features. I'll show how I have reorganised sound paramaters described by Schaeffer and how this sign works. At last, I will show the possibilities of writing scores sound by sound and I'll show two kinds of analysis: the analysis of a pure acousmatic work from a formal point of view and the analysis of a work for tape and instruments both from a formal and a symbolic point of view.</p>
+</div>
+<div id='B14', style='display: none;'><p class='bibtex'>
+@inproceedings{DiSanto_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Jean-Louis Di Santo }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {A Sign to write Acousmatic Scores}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {91--97}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>A Paradigm for Scoring Spatialization Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("18")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("18")'> Abstract</a> </span> <br />
+    <span class='authors'>Emile Ellberger, Germán Toro-Perez, Johannes Schuett, Linda Cavaliero and Giorgio Zoia</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/15-Ellberger-SpacializationNotation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A18', style='display: none;'><p class='abstract'>
+SSMN intends to develop a conceptual framework and a tool set that allows composers to integrate spatialization in musical notation from the onset of the creation process. As the composition takes form and graphic symbols ex-pressing spatialization is introduced into the score, instant audio rendering provides feedback within a surround sound configuration. In parallel, SSMN helps interpreters and audio engineers to learn and master scores that con-tain complex instructions of motion in space easily re-cognizable both in printed and animated electronic for-mat. At first a SSMN Spatial Taxonomy was established to identify key motion in space possibilities within musi-cal context; consequently, a collection of SSMN Symbols has been designed and implemented in a software library of graphical objects within MuseScoreSSMN, a dedicated editor that has been developed to allow interactive use of this library along with CWMN. In order to bridge the gap between visual elements and audio perception, an SSMN-Rendering-Engine application is at the heart of OSC inter-application communication strategies allowing the use of DAW and user-defined programming envi-ronments along with MuseScoreSSMN. A prototype has been prepared and tested by a user group consisting of composers and performers. Further research shall address other user cases integrating electroacoustic paradigms.</p>
+</div>
+<div id='B18', style='display: none;'><p class='bibtex'>
+@inproceedings{Ellberger_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Emile Ellberger and Germán Toro-Perez and Johannes Schuett and Linda Cavaliero and Giorgio Zoia }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {A Paradigm for Scoring Spatialization Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {98--102}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Accretion: Flexible, Networked Animated Music Notation For Orchestra With the Raspberry Pi</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("51")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("51")'> Abstract</a> </span> <br />
+    <span class='authors'>Kelly Fox</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/16-Fox-Accretion.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A51', style='display: none;'><p class='abstract'>
+In 2014, the author set out to expand the notational potential of their generative music systems to be performed by the Rensselaer Orchestra in Troy, NY. The experiments resulted in the use of several networked Raspberry Pi devices delivering a realtime, generative Animated Music Notation to subsections of the live orchestra during performance. This paper outlines the structure of the piece, Accretion; the technical details of its implementation; and the possibilities presented by using the Raspberry Pi to deliver scored materials to performers. Ultimately, the paper seeks to make a case for adopting the Raspberry Pi as a powerful device and method of distribution/performance of Animated Music Notation.</p>
+</div>
+<div id='B51', style='display: none;'><p class='bibtex'>
+@inproceedings{Fox_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Kelly Fox }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Accretion: Flexible, Networked Animated Music Notation For Orchestra With the Raspberry Pi}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {103--108}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Single Interface for Music Score Searching and Analysis (SIMSSA)</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("32")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("32")'> Abstract</a> </span> <br />
+    <span class='authors'>Ichiro Fujinaga and Andrew Hankinson</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/17-Fujinaga-Simssa8.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A32', style='display: none;'><p class='abstract'>
+Single Interface for Music Score Searching and Analysis (SIMSSA) project targets digitized music scores to de-sign a global infrastructure for searching and analyzing music scores. Specifically, we seek to provide research-ers, musicians, and others to access the contents and metadata of a large number of scores in a searchable, digital format. In this project, we are developing proto-types for processing and accessing the scores by consult-ing closely music researchers, musicians, and librarians.</p>
+</div>
+<div id='B32', style='display: none;'><p class='bibtex'>
+@inproceedings{Fujinaga_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Ichiro Fujinaga and Andrew Hankinson }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Single Interface for Music Score Searching and Analysis (SIMSSA)}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {109--115}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Browsing soundscapes</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("26")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("26")'> Abstract</a> </span> <br />
+    <span class='authors'>Patrice Guyot and Julien Pinquier</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/18-Guyot-BrowsingSoundscapes.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A26', style='display: none;'><p class='abstract'>
+Browsing soundscapes is generally based on the waveform of the audio signal or textual metadata, which may be not informative. The TM-charts provide an efficient tool to represent and compare soundscapes. However, they remain little used probably due to the human annotation they need. In this paper, we describe a new approach to compute charts of soundscapes, that we call Samocharts. The Samocharts are inspired by TM-charts and can be computed without a human annotation. We present two methods for Samochart computation. The first one is based on a segmentation of the signal from a set of predefined sound events. The second one is based on the confidence score of the detection algorithms. We describe two application cases on corpora of field recording from the CIESS and the UrbanSound projects. Finally, Samocharts provide a compact and efficient representation of soundscapes, which can be used in different kind of applications.</p>
+</div>
+<div id='B26', style='display: none;'><p class='bibtex'>
+@inproceedings{Guyot_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Patrice Guyot and Julien Pinquier }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Browsing soundscapes}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {116--123}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Moving and Changing - New Notation for Music Education</span>
+    <span class='right abstract'>
+    <a title='Show abstract' onclick='showhideabstract("39")'> Abstract</a> </span> <br />
+    <span class='authors'>Shane Mc Kenna</span>
+    </p>
+<div id='A39', style='display: none;'><p class='abstract'>
+	A unique new system of music notation designed specifically for educational purposes is presented. The aim of this animated graphic notation is to make music a more engaging, creative and accessible subject for teachers and students alike. The notation has been integrated into a fully interactive online curriculum based on international best practice in primary music education. The role of music notation in the delivery of music education will be explored, with particular focus on the problems associated with traditional notation.</p>
+</div>
+    <p>
+    <span class='time'></span> &nbsp;&nbsp;
+    <span class='paper'>Graphic to Symbolic Representations of Musical Notation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("16")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("16")'> Abstract</a> </span> <br />
+    <span class='authors'>Craig Sapp</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/20-Sapp-GraphicToSymbolic.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A16', style='display: none;'><p class='abstract'>
+This paper discusses a graphically oriented representation for music and how such representation systems can be converted into more symbolic/semantic representations of music. Specifically the representation system of the SCORE notation editor is presented along with case studies converting into other symbolic formats such as MIDI, Humdrum, Dox, MuseData, MusicXML and MEI using scorelib, an open-source library. Knowledge of the SCORE data format is useful for projects working on OMR (Optical Music Recognition) as it can be used as an intermediate layer between the raw scans and other digital music notation representation systems, as well as going in the other direction again from generalized music representations to specific graphical layouts.</p>
+</div>
+<div id='B16', style='display: none;'><p class='bibtex'>
+@inproceedings{Sapp_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Craig Sapp }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Graphic to Symbolic Representations of Musical Notation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {124--132}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+
+<div id='music'>
+  <div id='sessionTitle'><a name='Music II'>Music II</a><span class='right chair'>Chair: Yann Geslin</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>17:00</span> &nbsp;&nbsp;
+    <span class='paper'>Code scores in Live Coding</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("29")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("29")'> Abstract</a> </span> <br />
+    <span class='authors'>Thor Magnusson</span>
+    <span class='right pdf'>
+    <a href=http://medias.ircam.fr/x68dfdb><img src='medias/video.jpg' width=20></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="https://www.tenor-conference.org/proceedings/2015/21-Magnusson-CodeScores.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A29', style='display: none;'><p class='abstract'>
+This paper explores the idea of live coding programming environments as notational systems. The improvisational practice of live coding as combining both composition and performance is introduced and selected systems are discussed. The author's Threnoscope system is then intro- duced, but this is a system that contains both descriptive and prescriptive scores that can be changed in real-time.</p>
+</div>
+<div id='B29', style='display: none;'><p class='bibtex'>
+@inproceedings{Magnusson_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Thor Magnusson }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Code scores in Live Coding}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {133--138}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>17:40</span> &nbsp;&nbsp;
+    <span class='paper'>Scaffolding sketches: algorithmically disrupting the empty staff</span>
+    <span class='right abstract'>
+    <a title='Show abstract' onclick='showhideabstract("102")'> Abstract</a> </span> <br />
+    <span class='authors'>Mike Solomon</span>
+    <span class='right pdf'>
+    <a href=http://medias.ircam.fr/xba162e><img src='medias/video.jpg' width=20></a></span><br />
+    </p>
+<div id='A102', style='display: none;'><p class='abstract'>
+The manner in which composers overcome the agony of the blank slate in notation-based music composition is conditioned by many factors.  The size of the staff on the page, the number of line breaks, and the means of note entry (handwritten, dictated, point-and-click, markup) are just a few visual elements that effect the choices that a composer will make when writing visual marks that will be translated into sound.  This paper presents a method of scaffolding sketches by algorithmically projecting bits of music onto an otherwise empty staff, thereby imposing compositional constraints both on the sound result and on the written medium whose interpretation leads to this result.  The presentation will survey five pieces from the projet <a href="http://www.sit-ozfars-wysr.fr" target=_blank>Sit Ozfårs Wysr</a>, showing how algorithmic scaffolding acted as a disruptive element in the composition process.  The ensemble 101 will present live extracts of these works.</p>
+</div>
+  </div>
+</div>
+<div id='event'>
+    <span class='time'>18:30</span> &nbsp;&nbsp;
+    <span class='registration'>Opening reception</span>
+</div>
+
+<br /><br /><br />
+<div id='date'>Saturday 30th May</div>
+
+<div id='location'>Location: <a href='practical.html#Maison de la Recherche'>Maison de la Recherche</a></div>
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Technology for Music Notation'>Technology for Music Notation</a><span class='right chair'>Chair: Richard Hoadley</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>09:20</span> &nbsp;&nbsp;
+    <span class='paper'>THEMA: A Music Notation Software Package with Integrated and Automatic Data Collection</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("50")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("50")'> Abstract</a> </span> <br />
+    <span class='authors'>Peter McCulloch</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/23-McCulloch-Thema.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A50', style='display: none;'><p class='abstract'>
+This paper introduces Thema, a custom music notation software environment designed to automatically and transparently capture quantitative data into a relational database. The majority of research into musical creativity is qualitative in nature, and this software addresses several areas, such as search and improvisational data, which are not well-addressed in the qualitative toolkit. Thema's database provides advantages over ad hoc file collection mechanisms by providing integrated search; the software also is able to consistently identify musical material via automatically assigned identification codes, and this provides a useful supplement to content-based search. In 2013, a study was conducted of ten graduate-level composers using Thema, and the dataset from this study was used to develop new analytical tools for examining compositional data.</p>
+</div>
+<div id='B50', style='display: none;'><p class='bibtex'>
+@inproceedings{McCulloch_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Peter McCulloch }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {THEMA: A Music Notation Software Package with Integrated and Automatic Data Collection}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {139--145}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>09:40</span> &nbsp;&nbsp;
+    <span class='paper'>Standard Music Font Layout (SMuFL)</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("27")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("27")'> Abstract</a> </span> <br />
+    <span class='authors'>Daniel Spreadbury and Robert Piéchaud</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/24-Spreadbury-SMuFL.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A27', style='display: none;'><p class='abstract'>
+Digital typefaces containing the symbols used in Western common music notation have been in use for 30 years, but the development of the repertoire of symbols that are included, their assignment to code points, and design considerations such as glyph metrics and registration, have been rather ad hoc. The Standard Music Font Layout (SMuFL) establishes guidelines for all of these areas, and a reference implementation is available in the Bravura font family.
+Software developers and font designers alike are beginning to develop implementations of SMuFL in their products, and benefits including easier data interchange, interoperability of fonts with a variety of software packages, are already being felt.</p>
+</div>
+<div id='B27', style='display: none;'><p class='bibtex'>
+@inproceedings{Spreadbury_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Daniel Spreadbury and Robert Piéchaud }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Standard Music Font Layout (SMuFL)}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {146--153}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>10:00</span> &nbsp;&nbsp;
+    <span class='paper'>SVG to OSC Transcoding as a Platform for Notational Praxis and Electronic Performance</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("49")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("49")'> Abstract</a> </span> <br />
+    <span class='authors'>Rama Gottfried</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/25-Gottfried-SVG-OSC-Notation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A49', style='display: none;'><p class='abstract'>
+In this paper presents a case study in the creation of an open notational framework for experimentation with new types of notation that may be applied in a wide variety of contexts. By separating the visual representation from the act of rendering, a space for an interpretive grammar layer is created in which symbolic notation may be translated into a format that is understood by another form of rendering. Technical details of preliminary work on this topic is presented, using Scalable Vector Graphics (SVG) as a container for hierarchical score information which is then transcoded to OpenSoundControl (OSC) as an intermediate data processing before being passed to a given rendering context.</p>
+</div>
+<div id='B49', style='display: none;'><p class='bibtex'>
+@inproceedings{Gottfried_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Rama Gottfried }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {SVG to OSC Transcoding as a Platform for Notational Praxis and Electronic Performance}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {154--161}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>10:20</span> &nbsp;&nbsp;
+    <span class='paper'>Abjad: An Open-source Software System for Formalized Score Control</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("48")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("48")'> Abstract</a> </span> <br />
+    <span class='authors'>Trevor Bača, Josiah Oberholtzer, Jeffrey Treviño and Víctor Adán</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/26-Baca-ABJAD.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A48', style='display: none;'><p class='abstract'>
+The Abjad API for Formalized Score Control extends the Python programming language with an open-source, object-oriented model of common-practice music notation that enables composers to build scores through the aggregation of elemental notation objects. A summary of widely used notation systems’ intended uses motivates a discussion of system design priorities via examples of system use.</p>
+</div>
+<div id='B48', style='display: none;'><p class='bibtex'>
+@inproceedings{Baca_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Trevor Bača and Josiah Oberholtzer and Jeffrey Treviño and Víctor Adán }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Abjad: An Open-source Software System for Formalized Score Control}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {162--169}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+<br />
+<div id='break'>Break</div>
+
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Electro-acoustic Music Notation'>Electro-acoustic Music Notation</a><span class='right chair'>Chair: Andrew Blackburn</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>11:00</span> &nbsp;&nbsp;
+    <span class='paper'>The Notation of Dynamic Levels in the Performance of Electronic Music</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("25")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("25")'> Abstract</a> </span> <br />
+    <span class='authors'>Carlo Laurenzi and Marco Stroppa</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/27-Laurenzi-DynamicLevels.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A25', style='display: none;'><p class='abstract'>
+The “sound diffusion” (or “sound projection”), that is, “the projection and the spreading of sound in an acoustic space for a group of listeners”[1], of works for solo electronics or for acoustic instruments and electronics (so called, “mixed pieces”), has always raised the issue of notating the levels to be reproduced during a concert or the correct balance between the electronics and the instruments.
+If, in the last decades, some attempts were made by few composers or computer-music designers, mostly in the form of scores, none of these managed to establish a common practice. In addition, little theoretical work has been done so far to address the performative aspects of a piece, that is, to provide just the useful information to the person in charge of the sound diffusion.
+Through the discussion of three historical examples and the analysis of two experiences we developed, we will try to identify some possibly general solutions that could be adopted independently on the aesthetic or tech-nological choices of a given piece.</p>
+</div>
+<div id='B25', style='display: none;'><p class='bibtex'>
+@inproceedings{Laurenzi_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Carlo Laurenzi and Marco Stroppa }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {The Notation of Dynamic Levels in the Performance of Electronic Music}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {170--179}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>11:20</span> &nbsp;&nbsp;
+    <span class='paper'>Automated Representations of Temporal Aspects of Electroacoustic Music: Recent Experiments Using Perceptual Models</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("4")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("4")'> Abstract</a> </span> <br />
+    <span class='authors'>David Hirst</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/28-Hirst-PerceptualModels.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A4', style='display: none;'><p class='abstract'>
+Within this paper we firstly examine the determination of a number of temporal aspects of Electroacoustic Music, and their representations. Then various automated segmentation methods, for Harrison’s Unsound Objects, are investigated. We find the multi-granular approach outlined by Lartillot et al, combined with the use of MFCCs, is a very efficient and salient segmentation strategy for music structured predominantly according to timbre. Further, the ‘Contrast’ parameter is both versatile and effective in determining the granularity of segmentation.</p>
+</div>
+<div id='B4', style='display: none;'><p class='bibtex'>
+@inproceedings{Hirst_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { David Hirst }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Automated Representations of Temporal Aspects of Electroacoustic Music: Recent Experiments Using Perceptual Models}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {180--189}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+    <br /><p>
+    <span class='time'>11:40</span> &nbsp;&nbsp;
+    <span class='kn'><a name=keynote> Keynote </a></span>
+    </p>
+<div id='keynote'>
+	<h1>Eleanor Selfridge-Field</h1>
+	<p>
+	<img style="float: right; margin: 5px 5px 5px 5px;" src="medias/selfridgefield_staff.jpg" alt="E. Selfridge-Field" height="90">
+	Eleanor Selfridge-Field, Consulting Professor Music, is a musicologist
+and digital humanities scholar at Stanford University, where she heads the
+Center for Computer Assisted Research in the Humanities, an affiliate of the
+Packard Humanities Institute.  She is the author of 16 books in digital
+musicology and 5 in historical musicology.  Her teaching, most of it in
+collaboration with Craig Sapp, focuses on music representation systems and
+music-information retrieval.
+	</p>
+<h4>Does musical notation have a cultural centre?</h4>
+<div id='abstract'>
+In music encoding the expressions “common music notation” (CMN) and “common-practice period” are used freely as umbrella terms to cover European art music from 1700 to 1950.  We use these terms as if a uniform understanding could be assumed.  Increasingly, though, CMN is invoked to exclude music of three categories—early music, recent music, and non-Western music.  If we examine CMN more closely, especially from the perspective of digital manipulation of some kind, we are inclined to keep chipping away are elements of some music within CMN to exclude particular or idiosyncratic repertories—Verdi operas, Tchaikovsky symphonies, the music of Bela Bartok and Zoltan Kodaly, Western non-classical music of particular kinds, music that fulfills pedagogical needs, Braille Music Notation, and so forth.  We also quickly discover that early music is not one “thing” in terms of notation but a cornucopia of notational styles, many of them less fully specified than the average score of today.
+In the end, the same can be said of CMN: to the extent that written music is a compromise between a world of imagined sound and an practical means of enabling others to interpret it, the most seemingly conventional scores sometimes pose problems for which the encoder must choose between convention and reason, or else invent a new graphical means of expression.  This is what has given rise in recent decades to frequent calls for new methods of notation, which in turn may threaten to undermine the usually serviceable language of CMN.  While enabling music to seek new directions, we must be wary of invoking the “silo” practices of medieval scriptoria, in which music was “notated” exclusively for the use of a few individuals well known to the scribe.
+</div>
+</div>
+<br />
+<div id='break'>Lunch</div>
+
+<div id='event'>
+    <span class='time'>14:20</span> &nbsp;&nbsp;
+    <span class='registration'>TENOR 2016 Presentation</span>
+</div>
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Cognition - Perception'>Cognition - Perception</a><span class='right chair'>Chair: Cat Hope</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>14:30</span> &nbsp;&nbsp;
+    <span class='paper'>The Cognitive Dimensions of Music Notations</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("12")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("12")'> Abstract</a> </span> <br />
+    <span class='authors'>Chris Nash</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/29-Nash-CognitiveDimension.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A12', style='display: none;'><p class='abstract'>
+This paper presents and adapts the Cognitive Dimensions of Notations framework (Green and Petre, 1996) for use in designing and analysing notations (and user interfaces) in both digital and traditional music practice and study. Originally developed to research the psychology of programming languages, the framework has since found wider use in both general HCI and music. The paper provides an overview of the framework, its application, and a detailed account of the core cognitive dimensions, each discussed in the context of three music scenarios: the score, Max/MSP, and sequencer/DAW software. Qualitative and quantitative methodologies for applying the framework are presented in closing, highlighting directions for further development of the framework.</p>
+</div>
+<div id='B12', style='display: none;'><p class='bibtex'>
+@inproceedings{Nash_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Chris Nash }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {The Cognitive Dimensions of Music Notations}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {190--202}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>14:50</span> &nbsp;&nbsp;
+    <span class='paper'>Tufte Design Concepts in Musical Score Creation</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("40")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("40")'> Abstract</a> </span> <br />
+    <span class='authors'>Benjamin Bacon and Marcelo Wanderley</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/30-Bacon-TufteDesign.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A40', style='display: none;'><p class='abstract'>
+This paper introduces several examples of utilizing the in- formation design concepts of Edward Tufte in musical no- tation and score design. Tufte is generally considered a modern pioneer in the field of information design. With several authoritative texts, Tufte’s work dis- plays countless examples of successful and unsuccessful attempts of displaying information while also offering a few personal redesigns of especially troubled instances. Overall, Tufte reveals interesting concepts which could be useful when applied to designing musical notation systems. The author presents three personal notational examples which have been aided by Tufte’s work. Information design is a vast multidisciplinary field which could provide composers and musicians with an abundance of technical approaches to complex notational challenges.</p>
+</div>
+<div id='B40', style='display: none;'><p class='bibtex'>
+@inproceedings{Bacon_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Benjamin Bacon and Marcelo Wanderley }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Tufte Design Concepts in Musical Score Creation}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {203--209}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>15:10</span> &nbsp;&nbsp;
+    <span class='paper'>Notation as Instrument: From Representation to Enaction</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("31")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("31")'> Abstract</a> </span> <br />
+    <span class='authors'>Eric Maestri and Pavlos Antoniadis</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/31-Maestri-NotationAsInstrument.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A31', style='display: none;'><p class='abstract'>
+The paper explores the hybridization of notation and instrument as a cognitive movement from representation to enaction. Features of such hybridization are latent in every notation, as a mix of descriptive and prescriptive functions. Current advances in the fields of computer music representation (interactive scores) and New Interfaces for Musical Expression, with precedents in graphic and action-oriented scores, are turning notation into a shared multimodal platform between composer and performer, liquidizing the limit between notation and instrument. We will present this dynamic rapport between scores and interfaces (haptic interactions, INScore, GesTCom, post-Klaus K. Hübler tablature notations of decoupled action-structures) in the light of theoretical models (enaction defined as navigation of affordances from the field of embodied and extended cognition, Leman’s action-reaction cycle extended from instrument-making into notation, Veitl’s conception of software as tablature, Atau Tanaka’s definition of instruments as open-ended systems etc.). We are following an explicit line from new interfaces involving notation back to graphic and action-oriented scores, considering them in the theoretical framework of enaction.</p>
+</div>
+<div id='B31', style='display: none;'><p class='bibtex'>
+@inproceedings{Maestri_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Eric Maestri and Pavlos Antoniadis }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Notation as Instrument: From Representation to Enaction}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {210--217}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>15:30</span> &nbsp;&nbsp;
+    <span class='paper'>Timbral Notation from Spectrograms: Notating the Un-Notatable?</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("38")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("38")'> Abstract</a> </span> <br />
+    <span class='authors'>Andrew Blackburn and Jean Penny</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/32-Blackburn-TimbralNotation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A38', style='display: none;'><p class='abstract'>
+This paper outlines the background to a research project currently underway in Malaysia that, through spectog-raphy seeks to find models that might assist in the future development of a timbral notation. Located within the music creation and performance practices of the research-ers, the project has elements of interculturality which both enrich and inform the research. The authors consider the nature of a music score, the explicit and implicit in-formation it carries, and how this impacts on the models being developed. The understandings elicited to date are not only located in music practice, but are underpinned and supported by the theoretical works of a number of recent philosophers and theorists. The overall research project is broken down into smaller discrete sub-projects which are discussed, and the findings of each sub-project are then contextualized in the wider project. These find-ings include a discussion of the score as artifact and the potential contained within it. The finding in two sub-projects of a possible model of gestural notation, albeit with different purposes, suggests this as a further avenue of research. The paper concludes with some suggestions of future research areas that will follow on from the mod-els of timbral notation being explored in this project.</p>
+</div>
+<div id='B38', style='display: none;'><p class='bibtex'>
+@inproceedings{Blackburn_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Andrew Blackburn and Jean Penny }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Timbral Notation from Spectrograms: Notating the Un-Notatable?}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {218--225}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+<br />
+<div id='break'>Break</div>
+
+
+<div id='session'>
+  <div id='sessionTitle'><a name='Specific Notations'>Specific Notations</a><span class='right chair'>Chair: Ichiro Fujinaga</span> </div>
+  <div id='papers'>
+    <p>
+    <span class='time'>16:20</span> &nbsp;&nbsp;
+    <span class='paper'>Composing with Graphics: Revealing the Compositional Process through Performance</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("34")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("34")'> Abstract</a> </span> <br />
+    <span class='authors'>Pedro Rebelo</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/33-Rebelo-CompositionWithGraphics.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A34', style='display: none;'><p class='abstract'>
+The research presented here is product of a practice-based process that primarily generates knowledge through col-laboration and exchange in performance situations. It is this collaboration and exchange with various musicians over a period of five years that constitutes a body of prac-tice that is here reflected upon. The paper focuses on non-instructional graphic scores and presents some insights based on performances of works by the author. We ad-dress how composition processes are revealed in graphic scores by looking at the conditions of decision making at the point of preparing a performance. We argue that three key elements are at play in the interpretation of these types of graphic scores: performance practice, mapping and musical form. By reflecting particularly on the work Cipher Series (Rebelo, 2010) we offer insights into the strategies for approaching the performance of graphic scores that go beyond symbolic codification.</p>
+</div>
+<div id='B34', style='display: none;'><p class='bibtex'>
+@inproceedings{Rebelo_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Pedro Rebelo }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Composing with Graphics: Revealing the Compositional Process through Performance}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {226--230}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>16:40</span> &nbsp;&nbsp;
+    <span class='paper'>Access to musical information for blind people</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("43")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("43")'> Abstract</a> </span> <br />
+    <span class='authors'>Nadine Baptiste</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/34-BaptisteJessel-NotationForBlindPeople.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A43', style='display: none;'><p class='abstract'>
+In this paper we describe our approach to help blind peo-ple to access musical information. Guidelines of our approach are centered on information accessibility ac-cording to user disability. We present the process which permits to code and transform musical information to be read, treat and analyze by a Blind musician. We focus our proposition on the various level of description of the score done by several code and we exploit and describe existing results like BMML (Braille Music Markup Lan-guage) defined during Contrapunctus European project. We describe and comment different scenarios using exist-ing free transformation modules and software to obtain a score in BMML in order to be read and manipulate by a Blind people with BMR (Braille Music Reader) and the recommendation and tutorials propositions done during the Musi4vip European project.</p>
+</div>
+<div id='B43', style='display: none;'><p class='bibtex'>
+@inproceedings{Baptiste_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Nadine Baptiste }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Access to musical information for blind people}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {231--235}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>17:00</span> &nbsp;&nbsp;
+    <span class='paper'>Non-overlapping, Time-coherent Visualisation of Action Commands in the AscoGraph Interactive Music User Interface</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("24")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("24")'> Abstract</a> </span> <br />
+    <span class='authors'>Grigore Burloiu and Arshia Cont</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/35-Burloiu-Ascograph.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A24', style='display: none;'><p class='abstract'>
+Integrated authoring and performing of Mixed Music scores, where musicians interact dynamically with computer-controlled electronics, is enabled by the Antescofo state-of-the-art software package. Composers are able to plan computerised actions through a dedicated programming language, and performances are then synchronised in real time. AscoGraph is the dedicated graphical interface that allows users to configure Antescofo behaviours and visualise their layout over a Mixed Music score. This paper presents developments in the direction of increased clarity and coherence of AscoGraph’s visualisation of computerised action scores. Algorithms for efficient automatic stacking of time-overlapping action blocks are presented, as well as a simplified model for displaying atomic actions. The paper presents the improvements in score readability achieved, as well as the challenges faced towards a complete representation of dynamic mixed scores in the AscoGraph visual environment.</p>
+</div>
+<div id='B24', style='display: none;'><p class='bibtex'>
+@inproceedings{Burloiu_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Grigore Burloiu and Arshia Cont }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Non-overlapping, Time-coherent Visualisation of Action Commands in the AscoGraph Interactive Music User Interface}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {236--240}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+    <p>
+    <span class='time'>17:20</span> &nbsp;&nbsp;
+    <span class='paper'>Dynamic Notation – A Solution to the Conundrum of Non-Standard Music Practice</span>
+    <span class='right abstract'>
+    <a title='Show bibtex' onclick='showhidebibtex("19")'>Bibtex &nbsp; &nbsp; </a>
+    <a title='Show abstract' onclick='showhideabstract("19")'> Abstract</a> </span> <br />
+    <span class='authors'>Georg Hajdu</span>
+    <span class='right pdf'><a href="https://www.tenor-conference.org/proceedings/2015/36-Hajdu-DynamicNotation.pdf"><img src='medias/pdficon.gif' width=20></a></span><br />
+    </p>
+<div id='A19', style='display: none;'><p class='abstract'>
+This paper discusses dynamic notation—a method allowing, in a notation environment, instant switching between different views or notation styles, thus creating a common ground for practitioners of non-standard music, such as composers, performers, conductors and scholars. A plugin structure for different notation styles based on a set of maps and queries executed during note entry and rendering, affecting music glyph choice and placement was implemented in the MaxScore Editor—a notation editor designed to run in Max or Ableton Live. We will give an in-depth analysis of the methods used for equidistant scales, non-octave tunings, music in just intonation as well as for instrument-specific layouts and will con-clude with a description of a scenario in which dynamic notation was used for the transcription and performance of Alexander Scriabin’s piano poem Vers la Flamme op. 72 by an ensemble of acoustic Bohlen-Pierce instruments.</p>
+</div>
+<div id='B19', style='display: none;'><p class='bibtex'>
+@inproceedings{Hajdu_tenor2015, <br />
+&nbsp;&nbsp;&nbsp;   Address = {Paris, France}, <br />
+&nbsp;&nbsp;&nbsp;   Author = { Georg Hajdu }, <br />
+&nbsp;&nbsp;&nbsp;   Title = {Dynamic Notation – A Solution to the Conundrum of Non-Standard Music Practice}, <br />
+&nbsp;&nbsp;&nbsp;   Booktitle = {Proceedings of the First International Conference on Technologies for Music Notation and Representation - TENOR2015}, <br />
+&nbsp;&nbsp;&nbsp;   Pages = {241--248}, <br />
+&nbsp;&nbsp;&nbsp;   Year = {2015}, <br />
+&nbsp;&nbsp;&nbsp;   Editor = {Marc Battier and Jean Bresson and Pierre Couprie and Cécile Davy-Rigaux and Dominique Fober and Yann Geslin and Hugues Genevois and François Picard and Alice Tacaille}, <br />
+&nbsp;&nbsp;&nbsp;   Publisher = {Institut de Recherche en Musicologie}, <br />
+&nbsp;&nbsp;&nbsp;   ISBN = {978-2-9552905-0-7} <br />
+}
+</div>
+  </div>
+</div>
+<div id='event'>
+    <span class='time'>17:40</span> &nbsp;&nbsp;
+    <span class='registration'>Discussion - Closing</span>
+</div>
+</div>
+
+  <div id="footer">
+    <p><a href='http://tenor2015.tenor-conference.org/'>TENOR 2015</a></p>
+  </div>
+</body>
+</html>
+
+

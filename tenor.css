@@ -1,0 +1,37 @@
+
+body { 
+	margin: 50px; 
+	text-align: center;
+	font-family: Arial, "Gil Sans";
+}
+
+h1 {
+	font-size:28pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:20pt;
+	font-weight: normal;
+}
+
+h3 {
+	font-size:18pt;
+	font-weight: bold ;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+hr {
+	margin-left: 12%;
+	margin-right: 12%;
+}
